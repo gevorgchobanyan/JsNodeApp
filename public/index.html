@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>     
+<body>
+
+
+<div class="autocomplete" style="width:300px;">
+  <select id="market">
+    <option value="nyse" selected>NYSE</option>
+    <option value="nasdaq">NASDAQ</option>
+  </select>
+  <input id="myInput" type="text" name="myCountry" placeholder="Enter ticker....">
+</div>
+
+
+<div id="displayInfo" style="display: block;">
+</div>
+<div>
+  <button id='button1' style="display: none;">View Data Table</button>
+</div>
+
+<div>
+  <button id='button2' style="display: none;">Value</button>
+</div>
+<div>
+  <button id='button3' style="display: none;">Quality</button>
+</div>
+
+
+
+<script src="stock_app.js"> </script>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 16px Arial;  
+}
+
+/*the container must be positioned relative:*/
+.autocomplete {
+  position: relative;
+  display: inline-block;
+}
+
+input {
+  border: 1px solid transparent;
+  background-color: #f1f1f1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+input[type=text] {
+  background-color: #f1f1f1;
+  width: 100%;
+}
+
+input[type=submit] {
+  background-color: DodgerBlue;
+  color: #fff;
+  cursor: pointer;
+}
+
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff; 
+  border-bottom: 1px solid #d4d4d4; 
+}
+
+/*when hovering an item:*/
+.autocomplete-items div:hover {
+  background-color: #e9e9e9; 
+}
+
+/*when navigating through the items using the arrow keys:*/
+.autocomplete-active {
+  background-color: DodgerBlue !important; 
+  color: #ffffff; 
+}
+#displayInfo {
+  border: 1px solid white;
+  margin-left: 500px;
+}
+
+#displayInfo p {
+  margin-left: 30px;
+}
+#button1 {
+  margin-left: 530px;
+}
+
+
+/* Styling table */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+</style>
+
+
+</body>
+</html>

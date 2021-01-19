@@ -1,0 +1,73 @@
+
+[
+    {
+      "symbol": "HVT-A",
+      "name": "Haverty Furniture Companies, Inc.",
+      "currency": "USD",
+      "stockExchange": "NYSE",
+      "exchangeShortName": "NYSE"
+    },
+    {
+      "symbol": "LGF-B",
+      "name": "Lions Gate Entertainment Corp.",
+      "currency": "USD",
+      "stockExchange": "NYSE",
+      "exchangeShortName": "NYSE"
+    },
+    {
+      "symbol": "FMN",
+      "name": "Federated Hermes Premier Municipal Income Fund",
+      "currency": "USD",
+      "stockExchange": "NYSE",
+      "exchangeShortName": "NYSE"
+    },
+    {
+      "symbol": "GTN-A",
+      "name": "Gray Television, Inc.",
+      "currency": "USD",
+      "stockExchange": "NYSE",
+      "exchangeShortName": "NYSE"
+    },
+    {
+      "symbol": "GEF-B",
+      "name": "Greif, Inc.",
+      "currency": "USD",
+      "stockExchange": "NYSE",
+      "exchangeShortName": "NYSE"
+    },
+    {
+      "symbol": "PCGU",
+      "name": "PG&E Corporation",
+      "currency": "USD",
+      "stockExchange": "NYSE",
+      "exchangeShortName": "NYSE"
+    },
+    {
+      "symbol": "HEI-A",
+      "name": "HEICO Corporation",
+      "currency": "USD",
+      "stockExchange": "NYSE",
+      "exchangeShortName": "NYSE"
+    },
+    {
+      "symbol": "DVN",
+      "name": "Devon Energy Corp",
+      "currency": "USD",
+      "stockExchange": "NYSE",
+      "exchangeShortName": "NYSE"
+    },
+    {
+      "symbol": "LEN-B",
+      "name": "Lennar Corporation",
+      "currency": "USD",
+      "stockExchange": "NYSE",
+      "exchangeShortName": "NYSE"
+    },
+    {
+      "symbol": "AKO-B",
+      "name": "Embotelladora Andina S.A.",
+      "currency": "USD",
+      "stockExchange": "NYSE",
+      "exchangeShortName": "NYSE"
+    }
+  ]

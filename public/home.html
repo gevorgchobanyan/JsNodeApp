@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>     
+<body>
+    
+<div id ='dus'>
+    <p class='dushman'>dudush</p>
+    <p>dudush</p>
+</div>
+<div>
+    <p class='dushman'>dudush</p>
+    <p>dudush</p>
+</div>
+<div class="dudu">
+    <p class='dushman'>dudush</p>
+    <p>dudush</p>
+</div>
+<div id="images">
+    <img src="images/dudush1.jpg">
+    <img src="images/dudush2.jpg">
+    <img src="images/dudush3.jpg">
+</div>
+<div id='buttons'>
+    <input type="button" value="prev" class="prev">
+    <input type="button" value="next" class="next">
+</div>
+
+
+
+<script src="home.js"> </script>
+
+<style>
+.p-active {
+    color: red;
+}
+#dus .dushman {
+    color: greenyellow;
+}
+div .dushman {
+    color: green
+}
+
+.dudu {
+    color: purple
+}
+.dudu .dushman{
+    color: orange
+}
+#images img{
+    height: 500px;
+    width: 50%;
+    background-color: powderblue;
+    display: none;
+}
+#images img:first-child{
+    display: block;
+}
+</style>
+
+</body>
+</html>
